@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Children's Collection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="homepage.html"><button type="button">HOME</button></a>
+  <h1>Children's Collection</h1>
+  <div class="container">
+    <form action="checkout.html" method="POST">
+      <fieldset>
+        <legend>Kid's T-shirt</legend>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTywHP3xCYxEX9Lie5xT0E8zX_SqGufuSEchw&s" alt="Kid T-shirt" id="profile" width="150">
+        <p>Price: ₹499</p>
+        <label>Size:</label>
+        <select name="size-kidshirt">
+          <option disabled selected>Select Size</option>
+          <option>XS</option><option>S</option><option>M</option>
+        </select>
+        <label>Quantity:</label>
+        <input type="number" name="qty-kidshirt" value="1" min="1">
+      </fieldset>
+
+      <fieldset>
+        <legend>Kid's Shorts</legend>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ92Tw7BUgbUixM4YjCF5t7lPTWYekc53cyg&s" alt="Kid Shorts" id="profile" width="150">
+        <p>Price: ₹399</p>
+        <label>Size:</label>
+        <select name="size-kidshorts">
+          <option disabled selected>Select Size</option>
+          <option>XS</option><option>S</option><option>M</option>
+        </select>
+        <label>Quantity:</label>
+        <input type="number" name="qty-kidshorts" value="1" min="1">
+      </fieldset>
+
+      <button type="submit">Checkout</button>
+    </form>
+  </div>
+</body>
+</html>

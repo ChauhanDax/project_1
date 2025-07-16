@@ -1,0 +1,124 @@
+body {
+    background-color: #ECFAE5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2c6b0f;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #DDF6D2;
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+
+h1, h2 {
+    text-align: center;
+    color: #2c6b0f;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+button {
+    background-color: #B0DB9C;
+    border: none;
+    color: #135e1f;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button:hover {
+    background-color: #45a049;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+
+fieldset {
+    background-color: #70f6ac;
+    border: 2px solid #2c6b0f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #2c6b0f;
+    border-radius: 4px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #2c6b0f;
+}
+
+
+#profile {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 2px solid #2c6b0f;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+
+table,
+#products {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #2c6b0f;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+table th,
+table td,
+#products th,
+#products td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+.mt-20 {
+    margin-top: 20px;
+}

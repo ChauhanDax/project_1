@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Women's Collection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="homepage.html"><button type="button">HOME</button></a>
+  <h1>Women's Collection</h1>
+  <div class="container">
+    <form action="checkout.html" method="POST">
+      <fieldset>
+        <legend>Women's Top</legend>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaAngLpRL1VGb2Ds69nzwHeCrqLfohquCtCA&s" alt="Top Image" id="profile" width="150">
+        <p>Price: ₹799</p>
+        <label>Size:</label>
+        <select name="size-top">
+          <option disabled selected>Select Size</option>
+          <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label>Quantity:</label>
+        <input type="number" name="qty-top" value="1" min="1">
+      </fieldset>
+
+      <fieldset>
+        <legend>Women's Skirt</legend>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDQ8PDw8PDw8NDw8ODQ8NDw8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQFy0eHSIrLS0tKy0tLS0rLS0tLS0tLS0tLS0tKystLS0tKy0tLS0tOC0tLS0tKzcrLS0tLjc3Lf/AABEIARMAtwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAAAQIDBQYHBAj/xABAEAACAgEBBQQGBwYFBQEAAAABAgADEQQFBhIhMRNBUWEHInGBkaEUIzJScrHBM0JiY4KykqLR4fAkNHOzwhX/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAgMEAQX/xAAhEQEBAAICAgMAAwAAAAAAAAAAAQIRAzESISIyQQQTUf/aAAwDAQACEQMRAD8A6rCOEBQhCARRxQCKOKAopKKBGEc0j0g7fsR6tnaXnqdWPXweEpUcgDPdnDEnuC+c5bp2Tb2bc392fomZGd7XQ4YadQ4U+BYkLn2GezdnenS7UVjp3birx2ldi8FiA9DjoR5gzWaPRtpexVtQz3WHmSGNdYPgqju9uZgtt7FGzLa9Rs8mm6r1lwSyuO9GHeCOWJXOWLbxV16KYrdfba7R0dWpUcJfK2V5z2dqnDLnw7x5ETKy1SUUlFAUUcUBRSUUCMI4QPfCEIBFHCAoQhAUUcICijigLPj3dZxrdTaY1+2Noa48TFEteoVjtHWviVE4R48C4986hvbc1ezNc6fbXSXlcfe7MzQPRnq6uwWv1RdpeKlh++9LkOrDn0BDD25PfKuW6xW8M+TY939o6jUm8OmqStFBq+lLWAWxn1eEA/GaRti3U2iu01aiwO3rGuz6urBH7g8Dkc/unynS9q7SREIFgRiAQqp2j48eHuB6ZnP9LruCm+kWF2Lk80NbKG8QenQn4yiZfrV43TJ+ia/gt2jpefCtld6ciBlxhh7gK/lOjYnItwto4292PECLNPeOXdyrKg+eK8/1CddmrHpiy7KEcUkiUUcRgKIxxQCEIoHvhHFAIQhAUIQgKEcUBQjigU6rTrdW9T81tRq2/CwwfznzhpdTds3aRwTxUXNXYueEWhH5qfI8P5TsO8XpCq2bqXpv015AUNXZXwlbOXdkgY8eeR4TjenS3a+0wB6r6y93OOYqQkkn3L+njIZaTx27I22tO1ANquA6h1BB9YMMggic/wB49tVUcdlS8s4rUd7dxM6TrdLXVpeywClVQRc8/VVcD8pxDexcMi9xYn5cpm48femnPP4vb6LXb/8Aa0bZyS9wY+INL/rifQ8+a9ytaul1+muY4Wu31vIHln5z6UUggEdCMj2TXGSiIxmIzriJiMZkSYBFFmGYDhFFAyUUcIChCEBQMcUAijigefX6xNNTZdaeGulGdz1OAOgHee4DznB9594r9pWs1rN2Wfq6M/VVp3DHQnxY8/ym4+lnb2XTQ1sOFALdTwnObDzSs+wetjzU905ohyTKs7+PQ/jcWp5XuquyUHkq+zAwfbOq7krs62s26SpNPqQoXU1rzdT4qTzKHuPuPMTl7CT0ursodbKnKOn2WXkR5eY8pCrc+OV2XWcVjBW/Z4w2OTGaDvPuyLnYhxgMxBJwMdwHsmf3d2y+0NOztdWltOe3RqxwqOos+0PVI7/EGaTvLvBZqS1NbL2KkjtEVka8e8khfz+U5jLKzXHfprooCWle0GFbHaAF0z44GSRnwBn0XulbU+goNVldgFaqxqfjQWAesPLn3EA+InzqBiZzdHeOzZmrS0MexZlXVIM8L055nHey9R38sd5l0qGXD69PoUyJjzImTZkSZEmDGQJgPMJHMMwJxRZhAycIQgEIQgEUIQFCEhc/CpPgPn3QND9I+7/0ys30qPpFOcgAA314GV82GMj3jvnIqTnnO3bzbUXS0M5PccTh7av6RqLGAxlyzY6ZJzM8u3o8WWtYrmEotM9DzzPDRmSEjOCRkEHBIyp6g+I5DlCQgTOqtq3YAykP1zJW9fdPXsLZo1VmGJCjGeHkWPhnuklGWXt9Abn676TszR25DFtPWrkHP1qDgf8AzKZlWlei0lenqSmlFrrrUKiIOFQP+d8mxlrEgxlZMkxlTGBLMMyGYZgWZjkAYoGZhCKA4RQgEIRQCePaNmAF/qPsHT/nlPVbYqKzMQqoCzMxwqqBkknuGJxLff0iWam1k0LtVQDw9qFAtuA5cs/ZX5+zpI5S2aiWNku6ze0tM+2NqpowT9HpHa6pl6CsH7OfEnA9+e6abt/ZS6HaGroQcKi92Qdwrf10A8grATa/Q1vDRx3aS3I1epftEuYg/SFVf2Xkw9Ygd+T4c6/S1pwm0q3A/a6ZC3myu6/kF+EhcdYtf8fPfK0h55XnpsnmeQbM1ciTyMkZADkZJTVF59XPumz7j15trX71iD4sJq7dMTcPR2mdXpx/Nr+TCdvTNlfburGVMZNjKmMtZUGMqYybGVMYBmGZAmGYFgMcrBhAz0IQgEIRQHFCBgc39NO3jRpatFW2H1ZL3Y6jTofs/wBTfJGHfOLE5mf3822No7T1F6nNSkU6c9xpTkGHkTxN/VNezAOhBBIIIIIJBBHQg9xm56Pbw2np/o+vtc6vSVWts+4cLNqyQP8ApbM9WJC8LdeuefXTUXJA72OBmdJ3C2SlNFlgt7PU2HhFnCr8FY6KAfE8z7pDPKSLOKXy3LppGua/Ttw3UGtsZHEeRHiD0I8wZ5Drj9wf4v8AabZv7thzU+nW6x6+NA/FwAW2K2eL1QOQmjK+ZzGSzelvJzZy68nq+neKfA5kTtD+D5zzmRMl4xD+/P8A1d9Kyek23cHVivXUZ6drX8CwmlCZzdp8Xq3epyPdOZTURmdyvt9IsZWxj48gHuIBHvlbGTVosZUxk2MqYwETFmImLMCwGEiDHA2CEUcAhCEAmnelTbp0Oy7FRsXaw/RqiMhlVh9Y4x0wmQD3Flm4Tgvpg2z9K2oaVOa9CgpHh2rYaw/2r/RA0cQPKISFx7vjAotbJmR2VtnUac+o+VHVX9Zf9pjQJcq4UmLNuy6XbQ2hbqWLPgDJPCg4VBnnUYiTpJcoLdmTIEwJkYcSzMlsG3F6+cxoE9OgbhsU+c5l07j2+ltnWcWnob71NR+KCWsZ4dgvxaLTH+TWPguP0nsYxOi9osZUxkmMrYzrhExAxGKBYDHIgwgbHCKEBwijgYzeXay7P0Oo1TYPY1korHAe08q097FR758x3WNY7WOxZ7GZ3Y9WdjlmPmSSZ1T05bVbi0ujBxXwnVW/xNkogPkAH+I8Jycet5DxP6QFxCUWtLn9YhEBJJCqBzLMTgD4xa/S9jc9XEGNTdm5HTtF5MB4gNkZ78QFVXyHxjvPLEuUYEot6wIgcoGSMjmAuGMLCGYAZKg+sPaJAz07Mp7S5F8TOV2dvoDc6zi2dp89VVl+Dtj5TLMZg9yzjRBfuWOvyB/WZpjGPTuXdQYysmSYysmdRIwBiJgIEwYRCEDZI4oQHCKOBxb0y7C1ba8asVvbp3prqVqkZ+xZM5VwOmSSQenPHdNDr2HrLRlNJqnGM5TT3MMe0LPqTMCYHztsTYNuh0eo2tqKnrNOKNnpajK51lh4RqCGHJaxkjPVgPDnqOOfPx5k8zPon0q6W2/Y16U1Pc/HQ3DWpdwq2qzMAOZwB3eM+d7kKsVYFWX7SsCrL7QekD0AypxzmZt3d1Vez6Neay2m1HGOJQSairlQXGOQbHJund4Zwp6wEZHMbGRgEIQMBGbdulskPQt32bbb7q6mb7IrrqRmbHtcf4TNRnTd2tE+q2XpNPTTcHDXPdeyFKGrsdwUVm6+qEyceIGZHLpLDtue55+qtAB4eNCD3FigyPy+MzjGefZmj+j0hCQWyzOVGAWJ7vIDA90uadxmoZ3eVsQYyBMk0rM6iMwzFAQJgwiWOBskcUIDhFHAIRQgOeDaex9LrBjU6em8fza1dh7CeY9090IGj+lHg0mwXoqUVoW02mqReQVA4bhH9KGcFIxO3em63GzdOv39anwFF3+onEWgVmKOLMAzjpCEICn0fuzR2OztFX3ppaAfxdmufnmfOdVRsYIOrkIPaTgfnPpxU4VCjooCj2AYgJjKmljSpoEGlZk2kDAUBFCBYsIhCBsscUIDhFCA4RQgEIRGByj06as50NAHLF9zHz9RV/8Aucmad4313c020rg9xsVqU7JXrfGFySfVII6k905ttPdGmtytd9rAdzCvi+I/0kPOLJxZWbaYYYnXdheibTW6ZLdRfqlewcYWtqVCofs5zWeeOfvmRPoi2dj9vrfb2lGf/XJq3EsRGb9vRuZpdJquwrsvI7JHBdq2PEc5Bwo8Jh13bTPNnHvX/SRucic48rNvBudpe32noq/HUVufYh7Q/JZ9DMZqe6W5ei0o0+rVHOoFfEHexioLKQSF6dCZtjSSCtpW0m0raBBpAyRkDAUBFDMCwQkRCBs8cUIDhFCA4RQgEhc/CrN90Eyc8W1XxVj7zAfr+k5bqO4zd01/X2cKknqeftM0/T6M6nW1VdRZaof8Gct8gZn9vajAxHuJpePU2XHpSnCPxv8A7BvjKJN1qyy1i3kyJMZkTNDI0bePRC3XWMRnArUe5BMJr9Hw88dJtu0l+vsP8Q/tEwW2hyEz5dteP1bXsf8A7TT/APhr/tE9DQ09fBWi/cRV+CgRtNEZaqaVtLGlTQ4rMgZNpWYCMIjCBMQiEUDaYRRwCEIQCEIQCY3bLckH4j+UyUwu3nwfYn6mRz6T4/s0vbdnE827c3R9jo1Yj1r2Np/CeS/IA++aiNOdVq0qH77BSfBBzY/DM6UiBQABgKAAPAAYAkOOfqzlv4DImSMiZaoa7tQfXN7VP+UTB6hO11FKfesQH2Z5zPbY5Wt7F/tExWya+PXJ/LV3PwwPmRKNfJpl+G20tK2lrSl5ezKmlTSxjKmgVtIGSaVsYCzAGRzGIFghEsIG1QiMAYDhCEAhFDMAzNc3iswW/pHymxTU957cdofA/kshydLeLtDcfScT3ak+PZV+3q5/tHxm3zGbtafstFQPvILD+J/W/WZImSxmohnd0jEYyYjOotf23ysb8I/KeTdavitvt7gFqX29W/JfjHt3VIxdkYMPsZU5HEuQR7iCPdPdu3VwaOs99ha1vPJ5fICVT7L8rrCMg5lDmWuZQ0tUK2lTSxpU0CtpAyZlZgLEBCMQJqIRrFA2YmGYYjxAMwzCEAiJgYoHk2tr10untvYZFSFsdOJuir7yQPfNS2+xNbEnx95mb3zpNmjVBz49Xocj+FdVW7fJTMBtyz6o++Vcl6X8M7btoF4aKR4VVj4IJaTPFsMn6Hps9ewq6/gE9bGWqKCZjt4ta2m0GrvT7dOnusT8aoSPnPazzwbYXtNLqE+/TavxQiBpmorNGjoqySUqRCepJCAEmbfsdx9Eox0FSDl5Caltm3Kr585sG67/APR1jP2WsHxsLY/zSrjvur+WeoyrGUsZN3EoZpaoJpBpKHAYFREjwz0Cox9jA8vDGEnqFMkKoHnVYT1CqEDMwjhAUIQgKKOGIGI3lvrSqvtLETNq8HGwXiYK3IZ6zUNu6utKm4rK1HUFmUAzPekDd87S0XZIQLa7BbSWzw8YBBVvIhiPbg904nrd39ZVZ2TaS7tCcKFrZw3PqGUEEe+V5YbqzDk8Z07Vu7t5dRoqGq9ZVQVZwRlk9Q/MTKJc7TAbgbv26XQ1JcOF8u7ISCQWcnu9s20IBLFbzqpPWeTbeqGm0movKlxRTZYUB4SwVSSMzKcMo1mmW2p62GVsRkYHoVYYI+Bgcg1G+GnuUApbVjGcgOOn8Jz8pn9yNvJqe2or48V8NnERwg8WRgd/7uZi9r+i+wEnSXKynpXqMqyc/vgHi94HtM2zcndBdm1txP2tthDOwHCgIGAAOuPbIzGSp5clymqzlWlY8zLl0wE9UiZJBV2IhwSyKBDghwycUCOIsScUBYhHCBkzEYQgKEIQFCEIFdw5TzMIQgX19IzCECJkWhCBS0mkIQJyJhCBExQhAUIQgERhCAjCEIH/2Q==" alt="Skirt Image" id="profile" width="150">
+        <p>Price: ₹599</p>
+        <label>Size:</label>
+        <select name="size-skirt">
+          <option disabled selected>Select Size</option>
+          <option>S</option><option>M</option><option>L</option>
+        </select>
+        <label>Quantity:</label>
+        <input type="number" name="qty-skirt" value="1" min="1">
+      </fieldset>
+
+      <button type="submit">Checkout</button>
+    </form>
+  </div>
+</body>
+</html>
